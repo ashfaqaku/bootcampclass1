@@ -35,5 +35,5 @@ jobs:
         run: npm install --global surge
         
       - name: deploying using 
-         run: surge ./ sparkling-door.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+         run: surge ./ sparkling-door.surge.sh --token ${{ secrets.SURGE_TOKEN }}
     
